@@ -1,0 +1,562 @@
+# Found 2012 lines in ascl.php
+ascl:1102.023 21cmFAST
+ascl:1201.005 2LPTIC
+ascl:1111.011 3DEX
+ascl:1110.009 AAOGlimpse
+ascl:1010.024 ADAPTSMOOTH
+ascl:1109.002 ADIPLS
+ascl:1203.001 AE
+ascl:1212.009 Aegean
+ascl:1102.009 AHF
+ascl:9911.003 AIPS
+ascl:1107.006 AIRES
+ascl:1112.019 Aladin
+ascl:1106.001 AlterBBN
+ascl:1010.003 AMBER
+ascl:1007.006 AMIGA
+ascl:1107.007 AMUSE
+ascl:1110.001 analytic_infall
+ascl:9909.002 ANGSIZ
+ascl:1209.009 ANNz
+ascl:1103.011 AP3M
+ascl:1208.017 APLpy
+# ascl:1106.019 Application of Compressive Sampling to Radio Astr
+ascl:1208.003 APT
+# ascl:1007.005 Arcetri Spectral Code for Thin Plasmas</td><td>Th
+ascl:1107.011 ARCHANGEL
+ascl:1205.009 ARES
+ascl:1204.016 ASCfit
+ascl:1112.017 ASpec
+ascl:1209.015 Aspects
+ascl:1104.002 AstroBEAR
+ascl:1010.013 AstroGK
+ascl:1010.078 AstroMD
+ascl:1203.012 Astrometrica
+ascl:1208.001 Astrometry.net
+ascl:1207.007 Astropysics
+ascl:1010.023 AstroSim
+ascl:1010.014 Athena
+ascl:1110.015 atlant
+ascl:1109.016 aXe
+ascl:1208.010 BASE
+# ascl:1209.001 Bayesian Blocks
+ascl:1104.013 BEARCLAW
+ascl:1206.005 bhint
+ascl:9910.006 BHSKY
+# ascl:1208.007 Big MACS
+ascl:1011.008 Binsim
+ascl:1208.002 BINSYN
+ascl:1208.009 BLOBCAT
+ascl:9909.005 BLOCK
+ascl:1212.001 Bonsai
+ascl:1210.030 BOOTTRAN
+ascl:1108.019 BOREAS
+ascl:1108.011 BPZ
+ascl:9904.001 BSGMODEL
+ascl:1204.003 BUDDA
+# ascl:1211.005 C-m Emu
+ascl:1102.013 Cactus
+ascl:1210.010 CALCLENS
+# ascl:1105.013 <span style="font-size
+ascl:1102.026 CAMB
+ascl:1106.017 CAOS
+ascl:1107.013 CASA
+ascl:1105.010 CASTRO
+ascl:1206.008 Catena
+ascl:1208.006 ccogs
+ascl:1010.059 CESAM
+ascl:1010.001 CFITSIO
+ascl:1105.005 ChaNGa
+ascl:9911.004 CHIANTI
+ascl:1104.012 CHIWEI
+ascl:1202.008 Chombo
+ascl:1209.004 CHORIZOS
+ascl:1111.004 CIGALE
+ascl:1202.001 CISM_DX
+ascl:1106.020 CLASS
+ascl:1103.015 Cloudy_3D
+ascl:9910.001 Cloudy
+ascl:1107.014 Clumpfind
+ascl:1201.012 CLUMPY
+# ascl:1106.018 CMB B-modes from Faraday Rotation</td><td>This co
+ascl:1106.023 CMBACT
+ascl:1007.004 CMBEASY
+ascl:9909.004 CMBFAST
+ascl:1109.009 CMBquick
+ascl:1112.011 CMBview
+ascl:1109.020 CMFGEN
+ascl:1101.005 CMHOG
+ascl:1011.014 CO5BOLD
+ascl:1202.012 CoCoNuT
+# ascl:1210.011 Consistent Trees
+ascl:9905.001 CONSKY
+ascl:1210.013 ConvPhot
+ascl:1112.012 CORA
+ascl:1211.004 CORRFIT
+ascl:1202.006 CORSIKA
+# ascl:1010.040 Cosmic String Simulations</td><td>Complicated cos
+ascl:1010.030 CosmicEmu
+ascl:9910.004 COSMICS
+# ascl:1110.024 CosmoMC SNLS
+ascl:1106.025 CosmoMC
+ascl:1110.019 CosmoNest
+ascl:1212.006 CosmoPMC
+ascl:1102.012 CPROPS
+ascl:1101.008 CRASH
+ascl:1111.002 CRBLASTER
+ascl:1110.020 CROSS_CMBFAST
+ascl:1202.007 CRUNCH3D
+ascl:0104.002 CSENV
+ascl:1208.018 CUBEP3M
+ascl:1111.007 CUBISM
+ascl:1109.013 CULSP
+ascl:1011.006 DAME
+ascl:1104.011 DAOPHOT
+ascl:1011.002 DAOSPEC
+ascl:1110.002 DarkSUSY
+ascl:1207.006 dcr
+ascl:0008.001 DDSCAT
+ascl:1011.012 DEFROST
+ascl:1112.015 Dexter
+ascl:1103.001 Difmap
+ascl:1102.024 DiFX2
+ascl:1010.031 DimReduce
+ascl:1102.021 DIRT
+ascl:1209.011 DiskFit
+ascl:1108.015 DISKSTRUCT
+ascl:1010.029 DNEST
+# ascl:1206.011 Double Eclipsing Binary Fitting</td><td>The param
+ascl:1106.011 DRAGON
+ascl:1011.009 DRAGON
+ascl:1010.006 DSPSR
+# ascl:1105.003 The DTFE public software
+ascl:1201.011 Duchamp
+# ascl:1104.014 A Correction to the Standard Galactic Reddening M
+ascl:9911.001 DUSTY
+ascl:1106.004 E3D
+ascl:1011.013 EasyLTB
+ascl:1010.052 EAZY
+ascl:1203.007 EBTEL
+ascl:1112.001 Eclipse
+# ascl:1102.014 Einstein Toolkit for Relativistic Astrophysics</t
+ascl:1106.024 ELMAG
+ascl:1203.006 EMACSS
+ascl:1201.004 emGain
+# ascl:1010.018 Emu CMB
+ascl:1109.012 EnBiD
+ascl:1010.072 Enzo
+ascl:1204.017 epsnoise
+ascl:1204.011 EXCOP
+ascl:1207.001 EXOFAST
+ascl:1201.009 ExoFit
+ascl:9906.002 EXTINCT
+# ascl:1010.032 Extreme Deconvolution
+ascl:1010.061 EyE
+ascl:1210.004 EZ
+ascl:1208.021 EzGal
+ascl:1209.014 FAMIAS
+ascl:1102.017 FARGO
+# ascl:1010.010 Fast WMAP Likelihood Code and GSR PC Functions</t
+ascl:1010.037 FastChi
+ascl:9910.003 FASTELL
+# ascl:1010.041 FASTLens &#40;FAst STatistics for weak Lensing&#4
+ascl:1203.004 FERENGI
+ascl:1208.011 Fewbody
+ascl:1201.015 FFTW
+ascl:1111.013 FIBRE-pac
+ascl:1203.013 Figaro
+ascl:1202.014 FISA
+ascl:1010.070 Fisher.py
+ascl:1201.007 Fisher4Cast
+# ascl:1206.002 FITS Liberator
+ascl:1111.014 FITSH
+ascl:1107.003 FITSManager
+ascl:1112.007 FLAGCAL
+ascl:1010.082 FLASH
+# ascl:1107.004 Flexible DM-NRG</td><td>This code combines the sp
+ascl:1205.006 Flexion
+ascl:1210.007 FLUKA
+# ascl:1105.008 Flux Tube Model</td><td>This Fortran code compute
+ascl:1011.019 FLY
+ascl:1204.004 Fosite
+ascl:1010.002 fpack
+ascl:1211.002 FreeEOS
+ascl:1010.043 FSPS
+ascl:9912.002 FTOOLS
+ascl:1112.002 Funtools
+ascl:1205.005 Fv
+# ascl:1010.015 Fyris Alpha
+ascl:0003.001 GADGET-2
+ascl:1108.005 Gaepsi
+ascl:1109.011 GalactICS
+ascl:1108.004 Galacticus
+ascl:1203.002 GALAPAGOS
+ascl:1104.005 GALAXEV
+ascl:1101.007 Galaxia
+# ascl:1010.033 GALEV Evolutionary Synthesis Models</td><td>GALEV
+ascl:1104.010 GALFIT
+ascl:1010.028 GALPROP
+ascl:1110.007 GammaLib
+ascl:1105.011 Ganalyzer
+# ascl:1010.049 Gas-momentum-kinetic SZ cross-correlations</td><t
+ascl:1210.020 GASGANO
+ascl:1010.079 Geant4
+ascl:1007.003 GEMINI
+# ascl:1212.005 General complex polynomial root solver</td><td>Th
+ascl:1011.015 Geokerr
+ascl:1112.008 GGobi
+ascl:1107.002 GIBIS
+ascl:1112.005 GIDGET
+ascl:1004.001 GIM2D
+ascl:1109.018 GIPSY
+ascl:1010.012 glafic
+# ascl:1103.006 GLESP 2.0
+ascl:1110.008 Glnemo2
+# ascl:1011.010 Global Sky Model &#40;GSM&#41;
+ascl:1210.003 GOSSIP
+ascl:1210.001 GP2PCF
+ascl:1010.022 GR1D
+ascl:1010.080 GRACOS
+ascl:1106.008 GRAFIC-2
+ascl:1011.021 GRALE
+ascl:1204.006 GRASIL
+ascl:1102.003 GRAVLENS
+ascl:1203.005 Gyoto
+# ascl:1010.053 Halofitting codes for DGP and Degravitation</td><
+ascl:1210.022 HAM2D
+ascl:1201.014 Hammurabi
+ascl:1209.005 HARM
+ascl:1109.004 HAZEL
+ascl:1107.018 HEALPix
+ascl:1102.016 HERACLES
+# ascl:1010.065 Higher Post Newtonian Gravity Calculations</td><t
+ascl:1207.002 HiGPUs
+ascl:1111.001 HIPE
+ascl:1201.010 HNBody
+ascl:1102.019 HOP
+ascl:1103.010 Hydra
+ascl:1207.004 Hyperion
+ascl:1108.010 Hyperz
+ascl:1011.023 HyRec
+ascl:9905.002 ICOSAHEDRON
+ascl:1010.034 iCosmo
+# ascl:1011.001 Identikit 1
+# ascl:1102.011 Identikit 2
+ascl:1110.003 iGalFit
+ascl:1101.003 IGMtransfer
+ascl:1206.014 ImageHealth
+ascl:1206.013 ImageJ
+ascl:1108.001 IMCAT
+ascl:1010.046 indexf
+ascl:1210.023 inf_solv
+ascl:1007.002 INFALL
+ascl:1201.017 Inflation
+ascl:1101.004 InterpMC
+ascl:1209.013 IRACproc
+ascl:9911.002 IRAF
+ascl:1109.017 IRDR
+ascl:1205.007 Iris
+ascl:9909.003 ISIS
+# ascl:1010.047 ISW and Weak Lensing Likelihood Code</td><td>ISW 
+ascl:1209.002 JAGS
+ascl:1207.013 JKTEBOP
+ascl:1109.024 Jupiter
+ascl:1102.018 Karma
+ascl:1207.005 L.A.Cosmic
+ascl:1010.077 LAMDA
+ascl:1208.015 Lare3d
+# ascl:1202.011 Lattimer-Swesty Equation of State Code</td><td>Th
+ascl:1104.006 LECTOR
+ascl:9903.001 LENSKY
+ascl:1010.050 LensPerfect
+ascl:1102.025 LensPix
+ascl:1102.004 LENSTOOL
+ascl:1108.009 LePHARE
+# ascl:1206.009 Libimf</td><td>Libimf provides a collection of pr
+ascl:1010.020 Libpsht
+ascl:1107.012 LIME
+ascl:1112.009 LISACode
+# ascl:1010.038 Low Resolution Spectral Templates For AGNs and Ga
+ascl:1209.003 LSD
+ascl:1201.016 LumFunc
+ascl:1209.006 macula
+ascl:1110.018 MADmap
+ascl:1010.044 MAESTRO
+ascl:1010.054 MagnetiCS.c
+ascl:1106.010 MAGPHYS
+ascl:1202.005 Mangle
+ascl:1011.004 MARS
+ascl:1101.009 MasQU
+ascl:1104.004 MASSCLEAN
+ascl:1205.008 Mayavi2
+ascl:1204.005 MC3D
+ascl:1107.015 McLuster
+ascl:1210.017 McPHAC
+ascl:1201.001 McScatter
+ascl:1205.001 Mechanic
+ascl:1106.006 MECI
+ascl:1203.008 MegaLUT
+ascl:1209.010 MeqTrees
+ascl:1201.008 Mercury
+ascl:1010.083 MESA
+ascl:1111.009 MESS
+# ascl:1205.010 Meudon PDR
+ascl:1106.013 MGCAMB
+ascl:1010.081 MGGPOD
+ascl:1205.003 MIA+EWS
+# ascl:1010.008 Mid-infrared astronomy with the E-ELT
+ascl:0101.001 MILLISEARCH
+ascl:1106.007 MIRIAD
+ascl:1110.025 MIS
+ascl:1010.062 MissFITS
+ascl:1206.010 mkj_libs
+ascl:0104.001 MLAPM
+ascl:1110.010 MOCASSIN
+ascl:1010.009 ModeCode
+ascl:1109.023 MOKA
+ascl:1212.004 MOLIERE-5
+ascl:1206.004 MOLSCAT
+ascl:1010.036 Montage
+ascl:1202.009 MOOG
+ascl:1111.006 MOPEX
+ascl:1208.019 MPFIT
+ascl:1208.014 MPI-AMRVAC
+ascl:1106.022 MPI-Defrost
+ascl:1212.003 MPWide
+ascl:1102.005 MRLENS
+ascl:1112.010 MRS3D
+ascl:1109.006 MultiNest
+# ascl:1109.008 Multipole Vectors
+ascl:1203.009 MYRIAD
+ascl:1102.001 N-MODY
+# ascl:1102.006 NBODY Codes
+ascl:1010.019 NBSymple
+# ascl:1101.002 NDSPMHD Smoothed Particle Magnetohydrodynamics Co
+ascl:1010.004 Needatool
+ascl:1010.051 NEMO
+# ascl:1010.085 Network Tools for Astronomical Data Retrieval</td
+ascl:1106.016 Nightfall
+ascl:1101.006 NIRVANA
+# ascl:1011.016 Non-LTE Models and Theoretical Spectra of Accreti
+ascl:1202.003 NOVAS
+# ascl:1011.017 Occultation and Microlensing</td><td>Occultation 
+ascl:1010.048 OCTGRAV
+ascl:1210.024 ORBADV
+ascl:1106.015 OrbFit
+ascl:1204.013 ORSA
+ascl:1205.002 p3d
+ascl:1105.002 PACCE
+ascl:1110.011 Pacerman
+ascl:1210.009 PAHFIT
+# ascl:1103.008 Parallel HOP
+# ascl:1106.009 PARAMESH V4.1
+# ascl:1010.039 Parameter Estimation from Time-Series Data with C
+ascl:1103.014 ParaView
+ascl:1208.020 ParselTongue
+# ascl:1010.005 Particle module of Piernik MHD code</td><td>Piern
+ascl:1010.073 partiview
+ascl:1102.002 PBL
+ascl:1207.012 PCA
+ascl:1102.022 PDRT
+ascl:1108.008 PÉGASE-HR
+ascl:1108.007 PÉGASE
+ascl:1010.060 Pencil
+ascl:1103.002 PGPLOT
+ascl:1209.008 Phantom-GRAPE
+ascl:1112.006 PhAst
+ascl:1106.002 PHOEBE
+ascl:1010.056 PHOENIX
+ascl:1112.004 PHOX
+ascl:1007.001 PINTofALE
+ascl:1102.007 PixeLens
+ascl:1106.003 PLplot
+ascl:1206.007 Plumix
+ascl:1010.045 PLUTO
+ascl:9909.001 PMCode
+ascl:1102.008 PMFAST
+# ascl:1102.015 PMFASTIC</td><td>PMFASTIC is a parallel initial c
+ascl:1109.005 PolSpice
+ascl:0202.001 PopRatio
+ascl:1110.017 POWMES
+ascl:1210.002 pPXF
+ascl:1112.016 PREDICT
+ascl:1107.017 PRESTO
+ascl:1204.015 PROFIT
+ascl:1208.005 PSM
+ascl:1010.011 PSpectRe
+ascl:1105.014 PSRCHIVE
+ascl:1107.019 PSRPOP
+ascl:1110.014 pureS2HAT
+ascl:1210.026 PVS-GRMHD
+ascl:1204.002 pyBLoCXS
+ascl:1210.027 PyCosmic
+ascl:1112.014 PyEphem
+ascl:1207.009 PyFITS
+ascl:1103.012 Pyflation
+ascl:1208.004 PyKE
+ascl:1109.010 PyModelFit
+ascl:1207.011 PyRAF
+ascl:1207.010 PySALT
+ascl:1109.001 PySpecKit
+ascl:1210.019 QFitsView
+ascl:1210.028 QYMSYM
+ascl:1104.009 r-Java
+ascl:1106.005 R3D
+ascl:1010.075 Radex
+ascl:1108.014 RADICAL
+ascl:1202.015 RADMC-3D
+ascl:1108.016 RADMC
+ascl:9910.009 RADPACK
+ascl:1011.007 RAMSES
+ascl:0008.002 RATRAN
+# ascl:1105.009 Ray Tracing Codes
+ascl:1107.009 REAS3
+ascl:1110.016 REBOUND
+ascl:1106.026 RECFAST
+ascl:1206.001 RegiStax
+# ascl:1010.017 RFI Software</td><td>The RFI software presented h
+ascl:1104.008 Rmodel
+ascl:1201.002 Roche
+ascl:1210.008 Rockstar
+ascl:1210.031 RVLIN
+# ascl:9912.003 RVSAO 2.0
+ascl:1110.013 S2HAT
+ascl:1211.001 S2LET
+ascl:1103.003 S2PLOT
+ascl:1111.003 Saada
+ascl:1203.011 SALT2
+ascl:0003.002 SAOImage
+ascl:1210.029 Sapporo
+ascl:1010.063 SCAMP
+ascl:1209.012 Scanamorphos
+ascl:1210.012 SearchCal
+ascl:1201.003 SeBa
+# ascl:1101.001 Second-order Tight-coupling Code</td><td>Prior to
+ascl:1102.010 SEREN
+ascl:1010.064 SExtractor
+ascl:1210.005 SGNAPS
+# ascl:1011.005 Shape of Cosmic String Loops</td><td>Complicated 
+ascl:1204.010 Shape
+ascl:1108.017 SHELLSPEC
+ascl:1108.002 SHERA
+ascl:1107.005 Sherpa
+ascl:1110.004 SHTOOLS
+ascl:1110.023 SiFTO
+ascl:1107.016 SIGPROC
+ascl:1010.025 SimFast21
+ascl:1110.022 simple_cosfitter
+# ascl:1010.026 <span style="font-size
+ascl:1212.008 SIR
+ascl:1111.008 SITools2
+ascl:1102.020 SKID
+ascl:1109.003 SKIRT
+ascl:1109.019 SkyCat
+ascl:1010.066 SkyMaker
+ascl:1105.004 SLiM
+ascl:9906.001 SLOPES
+ascl:1010.035 SLR
+ascl:1106.012 SLUG
+ascl:1210.021 SMART
+ascl:1202.013 SME
+ascl:1010.027 SNANA
+ascl:1107.001 SNID
+ascl:1208.013 SolarSoft
+ascl:1105.006 SPARC
+ascl:1010.016 SpDust/SpDust.2
+ascl:1010.007 SPEAR
+ascl:1203.003 spec2d
+ascl:1111.005 SPECTCOL
+ascl:1202.010 SPECTRE
+ascl:9910.002 SPECTRUM
+ascl:1210.016 Specview
+ascl:9912.001 SPH_1D
+ascl:1103.009 SPHRAY
+ascl:1103.004 SPLASH
+ascl:1103.005 Splotch
+ascl:1201.013 SPS
+ascl:1105.012 Stagger
+# ascl:1111.010 Starbase Data Tables
+ascl:1104.003 Starburst99
+ascl:1010.074 StarCrash
+ascl:0011.001 StarFinder
+ascl:1204.008 StarFISH
+ascl:1010.076 Starlab
+ascl:1108.006 STARLIGHT
+ascl:1110.012 Starlink
+ascl:1107.008 STARS
+ascl:1206.006 statpl
+ascl:1108.018 STECKMAP
+ascl:1108.013 STELLA
+ascl:1110.006 STIFF
+ascl:1105.001 STILTS
+ascl:1204.009 STOKES
+ascl:1206.003 STSDAS
+ascl:1010.067 Stuff
+# ascl:1105.007 Sunspot Models</td><td>This IDL code creates a th
+ascl:1109.007 SuperBayeS
+# ascl:1109.014 Supernova Flux-averaging Likelihood Code</td><td>
+ascl:1208.012 Swarm-NG
+ascl:1010.068 SWarp
+ascl:1112.018 SwiftVis
+ascl:1010.055 SYNOW
+ascl:1109.022 Synspec
+# ascl:1210.018 Systemic Console
+ascl:1210.006 TA-DA
+ascl:1202.004 TALYS
+# ascl:1106.014 Transit Analysis Package &#40;TAP and autoKep&#41
+ascl:1210.015 Tempo2
+# ascl:1112.003 THERMINATOR 2
+# ascl:1206.012 Time Utilities</td><td>Time Utilities are softwar
+# ascl:1010.057 Tiny Tim
+ascl:1111.015 TIPSY
+ascl:1208.008 TiRiFiC
+ascl:1108.012 TITAN
+ascl:1109.021 TLUSTY
+ascl:1209.007 TMCalc
+ascl:1104.001 TomograPy
+ascl:1101.010 TOPCAT
+# ascl:1011.018 Transit of a Spherical Planet of a Stellar Chromo
+ascl:1210.014 TRIP
+# ascl:1011.011 Accurate Modeling of Weak Lensing with the sGL Me
+ascl:1205.004 Turbospectrum
+ascl:1210.025 TwoDSSM
+ascl:1104.007 ULySS
+ascl:1110.021 Univiewer
+ascl:1207.003 VAC
+ascl:1111.012 VAPOR
+ascl:1208.016 VARTOOLS
+# ascl:1010.021 <span style="font-style
+ascl:1204.007 VH-1
+ascl:1201.006 VIM
+ascl:1010.058 VINE
+ascl:1204.012 VirGO
+ascl:1103.007 VisIt
+ascl:1011.020 VisIVO
+# ascl:1211.006 Voronoi binning method</td><td>The Voronoi binnin
+ascl:1205.011 VOSpec
+# ascl:1108.003 WCSLIB and PGSBOX</td><td>WCSLIB is a C library, 
+ascl:1109.015 WCSTools
+ascl:1010.042 WeightMixer
+ascl:1010.069 WeightWatcher
+ascl:1010.084 WhiskyMHD
+ascl:9910.007 WINGSPAN
+ascl:1204.001 WM-basic
+ascl:1212.007 WOLF
+ascl:1204.014 WOMBAT
+ascl:1010.071 WSHAPE
+ascl:1207.014 wvrgcal
+# ascl:1211.003 WVT Binning
+ascl:1107.010 XDSPRES
+ascl:1112.013 XEphem
+ascl:1212.002 XPHOT
+ascl:1207.008 xSonify
+ascl:9910.005 XSPEC
+ascl:9910.008 XSTAR
+ascl:1203.010 Youpi
+ascl:1011.022 yt
+ascl:1110.005 ZEBRA
+ascl:1102.027 ZENO
+ascl:1102.028 ZEUS-MP/2
+ascl:1202.002 ZODIPIC
+ascl:1011.003 ZPEG
+# Found 558 code entries
