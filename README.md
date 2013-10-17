@@ -9,6 +9,18 @@ Allen & Teuben.
 Formalized for the 2013 proceedings that took place in Kona, Sep 30-Oct 3.
 
 
+INSTALLATION:
+=============
+
+   git clone https://github.com/teuben/adass-proceedings
+   cd adass-proceedings
+   ./configure
+   source ap_start.csh
+
+GIT:
+====
+
+
 Here's a super simple "git for dummies" (there are more advanced
 (better?) ways to work with git, cloning, working on a branch, and
 sending a pull request to the master etc.)
