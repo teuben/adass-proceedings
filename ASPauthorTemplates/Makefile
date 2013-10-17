@@ -9,3 +9,5 @@ test:
 	ps2pdf14 aspauthor.ps
 
 
+clean:
+	rm -f aspauthor.dvi aspauthor.aux aspauthor.log aspauthor.ps aspauthor.pdf
