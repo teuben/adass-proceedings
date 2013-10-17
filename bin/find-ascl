@@ -138,10 +138,10 @@ def parse4(file,codes):
 #parse3('sample.tex',codes)
 
 if __name__ == '__main__':
-    file = sys.argv[1]
-    #
+    ascl  = sys.argv[1]
+    text  = sys.argv[2]
     if False:
         codes = parse1('ascl.php')
     else:
-        codes = parse2('ascl1.txt')
-    parse4(file,codes)
+        codes = parse2(ascl)
+    parse4(text,codes)
