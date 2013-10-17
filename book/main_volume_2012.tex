@@ -1,0 +1,255 @@
+% this is the near-final adass2012 proceedings that Friedel used in github.
+
+
+% This is the main LaTeX file -- Please change only the indicated parts.
+% Copyright 2010, Astronomical Society of the Pacific Conference Series
+\documentclass[11pt,twoside]{book}
+
+\usepackage{asp2010}
+\usepackage{chapterbib}
+\usepackage{threeparttable}
+\usepackage{wrapfig}
+
+\let\iint\relax
+\let\iiint\relax
+\let\iiiint\relax
+\let\idotsint\relax
+
+
+\usepackage{amsmath}
+
+\usepackage{caption,subcaption}
+
+\usepackage{color}
+\usepackage{enumitem}
+
+% The following makes the PDF links active:
+%\usepackage[ps2pdf,colorlinks=true,bookmarks,backref,pdfauthor={J. Barnes},pdftitle={ASPCS}]{hyperref}
+
+%%% SUBMISSION DATA -- Please input the following information:
+
+% VOLUME AND SLUG INFORMATION
+\aspvolume{**Volume**} % Insert volume number from ASPCS
+\aspcpryear{2013} % Insert year received from ASPCS
+\aspvoltitle{Astronomical Data Analysis Software and Systems XXII} % Insert Full Title in Initial Caps
+\aspvolauthor{Douglas N. Friedel, ed.} % Insert Editors -- See next lines
+% Use a serial comma with 3 or more editors with "and" not "&" between last two names.
+% Follow editors' names with comma and "ed." or "eds."
+
+% COPYRIGHT INFORMATION -- Obtained from the ASPCS
+\aspLCCN{**LCCN**}
+\aspISBN{**ISBN**}
+\aspeISBN{**eISBN**}
+
+% HALFTITLE PAGE
+\asphalftitle{ASTRONOMICAL DATA ANALYSIS SOFTWARE AND SYSTEMS XXII} % IN ALL CAPS
+\aspcoverinfo{A montage highlighting some of the new mobile applications presented this year.\\\mbox{}\\Images referenced in this volume, Schaaff et al., Figure~2, p.~119 and Massimino et al., Figure~1, p.~114} 
+% In Mixed Case (Initial Caps)
+
+% Editors:  Please be sure to obtain permission from 
+%   the author and from the publisher if previously published.
+% Suggested acknowledgement wording might include the following, 
+%   depending upon the circumstance:
+%
+%   Image/drawing/photo courtesy of individual or organization 
+%     who created the image.
+%   Referenced in this volume, author name, p. xxx.
+%   By the kind permission of publisher, volume number, author and page number.
+%   Copyright held by name and place.
+
+% TITLE PAGE
+\aspmaintitle{ASTRONOMICAL DATA ANALYSIS SOFTWARE AND SYSTEMS XXII} % IN ALL CAPS
+
+% Conference, Meeting, Workshop, Symposium, Colloquium, etc.
+\aspmtgtype{Proceedings of a conference held in} 
+%   Meeting type could be conference, symposium, etc.
+\aspmtgvenue{Champaign, Illinois, USA} 
+%   Spell out fully (Institute, City, State, Country)
+\aspmtgwhen{4--8 November 2012} 
+%   In 7--11 May 2001 format with no commas
+
+% EDITOR INFORMATION -- Please include Department, Institute, City, State, Country in the affiliation
+\aspfirsteditor{Douglas N. Friedel}
+\aspfirstaffil{Department of Astronomy, University of Illinois, Urbana, IL, USA}
+
+
+\prepareindexes
+
+%\proofmodetrue   % For Proofing:  This command writes the indexed words in the margins
+\hyphenation{file-sys-tem dim-en-sion-al AAO-mega sear-ches}
+
+%%% ACTUAL DOCUMENT -- The document begins here
+\begin{document}   % The document begins (only one of these commands should be in this book)
+
+%\marginguide % For Proofing:  Use this line to show margin guides, comment out to hide margin guides
+
+% Uncomment next line if page numbers of front matter in TOC 
+% are ragged right.  If needed, change 1.70em to a larger number.
+%\tocnumwidth{1.70em}
+
+%%% FRONT MATTER
+\pagenumbering{roman}   % For the Document:  Roman page numbers for the frontmatter
+\tocinclude{frontmatter/halftitle}
+\tocinclude{frontmatter/halftitle_verso}
+\tocinclude{frontmatter/titlepage}
+\tocinclude{frontmatter/copyrightpage}
+
+%%% MAIN MATTER -- Commands related to formatting the main matter
+\preparemainmatter
+
+%%% PART NAME -- Change this to the section name that you want:  Part or Session
+\asppartname{Part} 
+% If you want the major section to be called Session then change the previous 
+% to the following command: \asppartname{Session}
+
+%\include{dedication}
+
+%%% TABLE OF CONTENTS -- Commands related to formatting the table of contents
+\tableofcontents
+\clearpage
+
+%\tocinsertentry[r]{Foreword}{Foreword~Author}{frontmatter/foreword}   % Table of contents entry for foreword
+\tocinsertentry[r]{Preface}{D. Friedel}{frontmatter/preface}   % Table of contents entry for preface
+\tocinsertentry[r]{Participants}{}{frontmatter/participants}   % Table of contents entry for participants list
+\tocinsertentry[r]{Conference Logo}{}{frontmatter/conf_logo}
+\tocinsertentry[r]{Conference Photograph}{}{frontmatter/conf_photo}   % Table of contents entry for conference photo
+
+\mainmatter   % Required for formatting
+\parindent=2em
+
+% The following are dependent on the material in the book
+\part{Community Development}
+\tocinsertentry[r]{Practical Informatics: Training the Next Generation}{R.~J.~Brunner}{part1/Brunner_O04/Brunner_O04}
+\tocinsertentry[r]{Astronomy and Computing: a new journal for the astronomical computing community}{R.~G.~Mann, A.~Accomazzi, T.~Budav{\'a}ri, C.~Fluke, N.~Gray, W.~O'Mullane, A.~Wicenec, and M.~Wise}{part1/Mann_O22/Mann_O22}
+\tocinsertentry[r]{OpTIIX Mission Overview and Education/Public Outreach}{T.~Krueger and D.~Swade}{part1/Krueger_P16/Krueger_P16}
+\tocinsertentry[r]{New Organizations to Support Astroinformatics and Astrostatistics}{E.~D.~Feigelson, \v{Z}.~Ivezi\'c, J.~Hilbe, and K.~D.~Borne}{part1/Feigelson_P051/Feigelson_P051}
+
+\part{Advances in Algorithms}
+\tocinsertentry[r]{New Probabilistic Galaxy Classification in Large Photometric Surveys}{F.~Liang and R.~J.~Brunner}{part2/Liang_P55/Liang_P55}
+\tocinsertentry[r]{Data Flow Design for Event Detection and Qualification in TES X-ray Detectors}{M.~T.~Ceballos, B.~Cobo, R.~Fraga-Encinas, J.~van~der~Kuur, J.~Schuurmans, and L.~Gottardi}{part2/Ceballos_P009/Ceballos_P009}
+\tocinsertentry[r]{Searching for Deeper Blank Fields in the Sky with TESELA}{N.~Cardiel, F.~M.~Jim\'{e}nez-Esteban, A.~Cabrera-Lavers, and J.~M.~Alacid}{part2/Cardiel_P08/Cardiel_P08}
+\tocinsertentry[r]{Efficient Catalog Matching with Dropout Identification}{D.~Fan and T.~Budav\'ari}{part2/Fan_P046/Fan_P046}
+\tocinsertentry[r]{Quantifying Systematic Effects on Galaxy Clustering}{Y.~Wang and R.~J.~Brunner}{part2/Wang_P57/Wang_P57}
+\tocinsertentry[r]{Improvement of Time-Series Photometry Based on Multi-Aperture Indexing and Spatiotemporal De-Trending}{S-W.~Chang and Y-I.~Byun}{part2/Chang_O07/Chang_O07}
+\tocinsertentry[r]{Acceleration of Automated HI Source Extraction}{S.~J.~Badenhorst, S.~Blyth, and M.~M.~Kuttel}{part2/Badenhorst_O01/Badenhorst_O01}
+\tocinsertentry[r]{DrizzlePac: Managing Multi-component WCS Solutions for HST Data}{W.~J.~Hack, N.~Dencheva, and A.~S.~Fruchter}{part2/Hack_O35/Hack_O35}
+\tocinsertentry[r]{GPU-based Acceleration of Radio Interferometry Point Source Visibility Calculations in the MEQtrees Framework}{R.~J.~Baxter, P.~Marais, and M.~M.~Kuttel}{part2/Baxter_O02/Baxter_O02}
+
+\part{Enabling Research}
+\tocinsertentry[r]{One Hop: In The Right Direction}{K.~J.~Glotfelty}{part3/Glotfelty_I04/Glotfelty_I04}
+\tocinsertentry[r]{Implementing Probabilistic Photometric Redshifts}{M.~Carrasco~Kind and R.~J.~Brunner}{part3/Carrasco_Kind_O06/Carrasco_Kind_O06}
+\tocinsertentry[r]{A GPU-Based Visualization Method for Computing Dark Matter Annihilation Signal}{L.~Yang and A.~Szalay}{part3/Yang_P045/Yang_P045}
+
+\part{Large Scale Computing}
+\tocinsertentry[r]{Redefining the Data Pipeline Using GPUs}{C. Warner, S. S. Eikenberry, A. H. Gonzalez, and C. Packham}{part4/Warner_O31/Warner_O31}
+\tocinsertentry[r]{Detection of Binary Pulsars with GPU-Accelerated Sinusoidal Hough Transformations}{C.~Laidler and M.~M.~Kuttel}{part4/Laidler_O20/Laidler_O20}
+\tocinsertentry[r]{Development of an Astrophysical Specific Language for Big Data Computation}{N.~Kamennoff, S.~Foucaud, and S.~Reybier}{part4/Kamennoff_O18/Kamennoff_O18}
+\tocinsertentry[r]{Cloud Based Processing of Large Photometric Surveys}{R.~Farivar, Robert~J.~Brunner, R.~Santucci, and R.~Campbell}{part4/Farivar_O12/Farivar_O12}
+\tocinsertentry[r]{Delivering Astronomy Software with Minimal User Maintenance}{S.~Fabbro and S.~Goliath}{part4/Fabbro_O11/Fabbro_O11}
+\tocinsertentry[r]{A Tale Of 160 Scientists, Three Applications, A Workshop and A Cloud}{G.~B.~Berriman, C.~Brinkworth, D.~Gelino, D.~K.~Wittman, E.~Deelman, G.~Juve, M.~Rynge, and J.~Kinney}{part4/Berriman_O03/Berriman_O03}
+\tocinsertentry[r]{CUDA-Splotch: GPU Visualization of Astrophysical Data}{C.~Gheller, M.~Rivi, M.~Krokos, K.~Dolag, and M.~Reinecke}{part4/Gheller_P013/Gheller_P013}
+\tocinsertnewpage
+
+\part{Astronomy Applications for Handheld Devices}
+\tocinsertentry[r]{VisIVO: A Web-Based, Workflow-Enabled Gateway for Astrophysical Visualization}{A.~Costa, M.~Bandieramonte, U.~Becciani, M.~Krokos, P.~Massimino, C.~Petta, C.~Pistagna, S.~Riggi, E.~Sciacca, and F.~Vitello}{part5/Costa_O08/Costa_O08}
+\tocinsertentry[r]{Learning Astrophysics Through Mobile Gaming}{P.~Massimino, A.~Costa, U.~Becciani, M.~Krokos, M.~Bandieramonte, C.~Petta, C.~Pistagna, S.~Riggi, E.~Sciacca, and F.~Vitello}{part5/Massimino_O24/Massimino_O24}
+\tocinsertentry[r]{Feedback about Astronomical Application Developements for Mobile Devices}{A.~Schaaff, T.~Boch, P.~Fernique, R.~Houpin, V.~Kaestl\'e, M.~Royer, J.~Scheffmann, and A.~Weiler}{part5/Schaaff_O28/Schaaff_O28}
+\tocinsertentry[r]{A Mobile Data Application for the Fermi Mission}{T.~E.~Stephens}{part5/Stephens_P39/Stephens_P39}
+\tocinsertentry[r]{XMM-Newton Mobile Web Application}{A.~Ibarra, M.~Kennedy, P.~Rodr\'iguez, C.~Hern\'andez, R.~Saxton, and C.~Gabriel}{part5/Ibarra_P015/Ibarra_P015}
+
+\part{Scientific Archives}
+\tocinsertentry[r]{Enhancing Science Return During the Rapid Expansion of IRSA}{H.~I.~Teplitz, S.~Groom, W.~Roby, and the IRSA Team}{part6/Teplitz_O29/Teplitz_O29}
+\tocinsertentry[r]{HEALPix Based Cross-Correlation in Astronomy}{P.~Fernique, D.~Durand, T.~Boch, A.~Oberto, and F.-X.~Pineau}{part6/Durand_O13/Durand_O13}
+\tocinsertentry[r]{An Observation-Centric View of the Chandra Data Archive}{S.~Winkelman and A.~Rots}{part6/Winkelman_O33/Winkelman_O33}
+\tocinsertentry[r]{Full Tolerant Archiving System}{C.~Knapic, M.~Molinaro, and R.~Smareglia}{part6/Knapic_O19/Knapic_O19}
+\tocinsertentry[r]{How to Transplant a Large Archive}{J.~Haase, C.~Arviset, P.~Osuna, and M.~Rosa}{part6/Haase_O16/Haase_O16}
+\tocinsertentry[r]{The MWA Archive - A Multi-tiered Dataflow and Storage System}{C.~Wu, A.~Wicenec, D.~Pallot, and A.~Checcucci}{part6/Wu_P34/Wu_P34}
+\tocinsertentry[r]{The GIRAFFE Archive: 1D and 3D spectra}{F.~Royer, I.~J\'egouzo, F.~Tajahmady, J.~Normand, and I.~Chilingarian}{part6/Royer_P63/Royer_P63}
+\tocinsertentry[r]{Implementing a Common Database Architecture at the CADC using CAOM-2}{R.~O.~Redman and P.~Dowler}{part6/Redman_P025/Redman_P025}
+\tocinsertentry[r]{Crab: A Dashboard System for Monitoring Archiving Tasks}{G.~Bell, T.~Jenness, and A.~Agarwal}{part6/Bell_P04/Bell_P04}
+\tocinsertentry[r]{Better Living Through Metadata: Examining Archive Usage}{G.~Becker, S.~Winkelman, and A.~Rots}{part6/Becker_P41/Becker_P41}
+\tocinsertentry[r]{Results from the Survey of ESA Science Archives}{C.~Arviset, D.~Baines, and P.~Osuna}{part6/Arviset_P02/Arviset_P02}
+
+\part{Data Reduction Pipelines}
+\tocinsertentry[r]{The CARMA Data Reduction Pipeline}{D.~N.~Friedel}{part7/Friedel_P12/Friedel_P12}
+\tocinsertentry[r]{Miriad for SMA Data Reduction}{J.-H.~Zhao}{part7/Zhao_P36/Zhao_P36}
+\tocinsertentry[r]{A Spectral Pipeline for the Green Bank Telescope}{J.~Masters and J.~Braatz}{part7/Masters_P66/Masters_P66}
+\tocinsertentry[r]{Data reduction pipeline for the MMT Magellan Infrared Spectrograph}{I.~Chilingarian, W.~Brown, D.~Fabricant, B.~McLeod, J.~Roll, and A.~Szentgyorgyi}{part7/Chilingarian_P58/Chilingarian_P58}
+\tocinsertentry[r]{Online Data Reduction and Quicklook Tool for HAWC}{M.~G.~Berthoud}{part7/Berthoud_P006/Berthoud_P006}
+\tocinsertentry[r]{Herschel Data Processing Development -- 10 Years After}{S.~Ott}{part7/Ott_O25/Ott_O25}
+
+\part{Databases, Metadata, and Catalogs}
+\tocinsertentry[r]{Hubble Source Catalog}{S.~Lubow and T.~Budavari}{part8/Lubow_O21/Lubow_O21}
+\tocinsertentry[r]{Headerlets: Share HST Astrometric Solutions Without the Data}{N.~Dencheva, W.~Hack, and A.~Fruchter}{part8/Dencheva_P11/Dencheva_P11}
+\tocinsertentry[r]{The Taiwan Extragalactic Astronomical Data Center}{S.~Foucaud, Y.~Hashimoto, M.-F.~Tsai, N.~Kamennoff, and the TWEA-DC team}{part8/Foucaud_O14/Foucaud_O14}
+\tocinsertentry[r]{Formal Semantics to Model Experimental Data}{F.~Viallefond}{part8/Viallefond_P52/Viallefond_P52}
+\tocinsertentry[r]{ESO Catalogue Facility Design and Performance}{C.~Moins, J.~Retzlaff, M.~Arnaboldi, S.~Zampieri, N.~Delmotte, and V.~Forch\'{i}}{part8/Moins_P64/Moins_P64}
+\tocinsertentry[r]{A New Web Interface for Saada}{L.~Michel, G.~Mantelet, C.~Motch and E.~Werner}{part8/MICHEL_P18/MICHEL_P18}
+\tocinsertentry[r]{TAPVizieR: A New Way to Access the VizieR Database}{G.~Landais, F.~Ochsenbein, and A.-C.~Simon}{part8/Landais_P44/Landais_P44}
+\tocinsertentry[r]{CyberSKA Radio Imaging Metadata and VO Compliance Engineering}{K.~R.~Anderson, E.~Rosolowsky, and P.~Dowler}{part8/Anderson_P01/Anderson_P01}
+\tocinsertentry[r]{Cross-Identification of Astronomical Catalogs on Multiple GPUs}{M.~A.~Lee and T.~Budav\'ari}{part8/Lee_P40/Lee_P40}
+
+\part{Tools, Libraries, and Toolkits}
+\tocinsertentry[r]{The Astropy Project: A Community Python Library for Astrophysics}{E.~J.~Tollerud, P.~E.~Greenfield, T.~P.~Robitaille, and the Astropy Developers}{part9/Tollerud_O30/Tollerud_O30}
+\tocinsertentry[r]{The Outer Solar System Origins Survey: VO and Software Perspective}{JJ~Kavelaars}{part9/Kavelaars_I07/Kavelaars_I07}
+\tocinsertentry[r]{Starlink 2012 - The Kapuahi Release}{D.~Berry, M.~Currie, T.~Jenness, P.~Draper, G.~Bell, and R.~Tilanus}{part9/Berry_P05/Berry_P05}
+\tocinsertentry[r]{VO-compatible Architecture for Managing and Processing Images of Moving Celestial Bodies: Application to the Gaia-GBOT Project}{C.~Barache, S.~Bouquillon, T.~Carlucci, F.~Taris, L.~Michel, and M.~Altmann}{part9/Barache_P03/Barache_P03}
+\tocinsertentry[r]{Prototype Implementation of Web and Desktop Applications for ALMA Science Verification Data and the Lessons Learned}{S.~Eguchi, W.~Kawasaki, Y.~Shirasaki, Y.~Komiya, G.~Kosugi, M.~Ohishi, and Y.~Mizumoto}{part9/Eguchi_O10/Eguchi_O10}
+\tocinsertentry[r]{NEOview: Near Earth Object Data Discovery and Query}{M.~Tibbetts, M.~Elvis, J.~L.~Galache, P.~Harbo, J.~C.~McDowell, M.~Rudenko, D.~Van~Stone, and P.~Zografou}{part9/Tibbetts_P030/Tibbetts_P030}
+\tocinsertentry[r]{Science Mining and Characterization of ALMA Large Data Cubes}{P.~Teuben, C.~Y.~Ip, L.~Mundy, and A.~Varshney}{part9/Teuben_P059/Teuben_P059}
+\tocinsertentry[r]{A New Python Library for Spectroscopic Analysis with MIDAS Style}{Y.~Song, A.~Luo, and Y.~Zhao}{part9/Song_P65/Song_P65}
+\tocinsertentry[r]{Harmonize Pipeline and Archiving System: PESSTO@IA2 Use Case}{R.~Smareglia, C.~Knapic, M.~Molinaro, D.~Young, and S.~Valenti}{part9/Smareglia_P28/Smareglia_P28}
+\tocinsertentry[r]{Overview of the SOFIA Data Cycle System:  An Integrated Set of Tools and Services for the SOFIA General Investigator}{R.~Y.~Shuping, W.~D.~Vacca, L.~Lin, L.~Sun, and R.~Krzaczek}{part9/Shuping_P50/Shuping_P50}
+\tocinsertentry[r]{Spectral Analysis in the Virtual Observatory}{T.~Rauch, N.~Reindl, and E.~M\"uller-Ringat}{part9/Rauch_P24/Rauch_p24}
+\tocinsertentry[r]{New Spectral Analysis Software for Global Analysis of Broadband Line Surveys in MATLAB}{M.~L.~Radhuber and S.~L.~Widicus Weaver}{part9/Radhuber_P23/Radhuber_P23}
+\tocinsertentry[r]{Software toolkit for MEGARA, the Integral-Field Unit and Multi-Object Spectrograph for GTC}{S.~Pascual, M.~C.~Eliche-Moral, V.~Villar, \'A.~Castillo, N.~Gruel, N.~Cardiel, E.~Carrasco, J.~Gallego, A.~G.~de~Paz, F.~M.~S\'anchez-Moreno, and J.~M.~V\'ilchez}{part9/Pascual_P21/Pascual_P21}
+\tocinsertentry[r]{The Past 15 Years of RVSAO}{J.~Mink}{part9/Mink_P019/Mink_P019}
+\tocinsertentry[r]{Extending Iris: The VAO SED Analysis Tool}{O.~Laurino, I.~Busko, M.~Cresitello-Dittmar, R.~D'Abrusco, S.~Doe, J.~Evans, and O.~Pevunova}{part9/Laurino_P020/Laurino_P020}
+\tocinsertentry[r]{astrojs -- JavaScript Libraries for Astronomy}{A.~Kapadia and A.~Smith}{part9/Kapadia_F4/Kapadia_F4}
+\tocinsertentry[r]{Vissage: an ALMA-VO Desktop Application}{W.~Kawasaki, S.~Eguchi, Y.~Shirasaki, Y.~Komiya, G.~Kosugi, M.~Ohishi, and Y.~Mizumoto}{part9/Kawasaki_P47/Kawasaki_P47}
+\tocinsertentry[r]{PAL -- A Positional Astronomy Library}{T.~Jenness and D.~S.~Berry}{part9/Jenness_P56/Jenness_P56}
+\tocinsertentry[r]{CANFAR+Skytree: A Cloud Computing and Data Mining System for Astronomy}{N.~M.~Ball}{part9/Ball_P062/Ball_P062}
+\tocinsertentry[r]{Using Firefly Tools to Enhance Archive Web Pages}{W.~Roby, X.~Wu, L.~Ly,  and T.~Goldina}{part9/Roby_O27/Roby_O27}
+\tocinsertentry[r]{Introducing the Ginga FITS Viewer and Toolkit}{E.~Jeschke, T.~Inagaki, and R.~Kackley}{part9/Jeschke_O17/Jeschke_O17}
+
+\part{Observatory Specific Software}
+\tocinsertentry[r]{AGILE/GRID Science Alert Monitoring System: The Workflow and the Crab Flare Case}{A.~Bulgarelli, M.~Trifoglio, F.~Gianotti, M.~Tavani, V.~Conforti, and N.~Parmiggiani}{part10/Bulgarelli_O05/Bulgarelli_O05}
+\tocinsertentry[r]{HST Cycle 21 Exposure Time Calculator}{R.~I.~Diaz, V.~G.~Laidler, I.~Busko, M.~Davis, C.~Hanley, M.~Sienkiewicz, C.~Sontag, and B.~York}{part10/Diaz_P54/Diaz_P54}
+\tocinsertentry[r]{2MASS Catalog Server Kit version 2.1}{C.~Yamauchi}{part10/Yamauchi_P35/Yamauchi_P35}
+\tocinsertentry[r]{FRIAA: A FRamework for web-based Interactive Astronomy Analysis using AMQP messaging}{M.~D.~Young, A.~Gopu, S.~Hayashi, and J.~A.~Cox}{part10/Young_O15/Young_O15}
+\tocinsertentry[r]{Automated Removal of Bad-baseline Spectra from ACSIS/HARP Heterodyne Time Series}{M.~J.~Currie}{part10/Currie_P61/Currie_P61}
+\tocinsertentry[r]{SAMI Automated Plug Plate Configuration}{N.~P.~F.~Lorente, T.~Farrell, and M.~Goodwin}{part10/Lorente_P048/Lorente_P048}
+\tocinsertentry[r]{Binocular Observations with LUCI at the LBT: Scheduling and Synchronization}{A.~Pramskiy and K.~L.~Polstere}{part10/Pramskiy_P038/Pramskiy_P038}
+\tocinsertentry[r]{The Software System for the AAO's HERMES Spectrograph}{K.~Shortridge, T.~Farrell, M.~Vuong, M.~Birchall, and R.~Heald}{part10/Shortridge_P027/Shortridge_P027}
+\tocinsertentry[r]{Early Photometry Studies for Euclid}{M.~K\"ummel, J.~Koppenhoefer, A.~Riffeser, J.~Mohr, S.~Desai, R.~Henderson, K.~Paech, and M.~Wetzstein}{part10/Kuemmel_P049/Kuemmel_P049}
+\tocinsertentry[r]{Migrating an in-Operation Space Observatory Data Processing Chain Towards a SOA Oriented Architecture, and the Benefits for other Space Missions}{O.~Perez, J.~C.~Vallejo, and R.~F.~Perez}{part10/Perez_P022/Perez_P022}
+\tocinsertentry[r]{Software and Computing at LWA1}{J.~Dowell}{part10/Dowell_P42/Dowell_P42}
+\tocinsertentry[r]{The Fly's Eye Camera System -- An Instrument Design for Large \'Etendue Time-domain Surveys}{G.~Cs\'ep\'any, A.~P\'al, K.~Vida, Z.~Reg\'aly, L.~M\'esz\'aros, K.~Ol\'ah, C.~Kiss, L.~D\"obrentei, A.~Jask\'o, G.~Mez\H{o}, and E.~Farkas}{part10/Csepany_O09/Csepany_O09}
+\tocinsertentry[r]{Spectral Line Selection in the ALMA Observing Tool}{S.~~Williams, and A.~Bridger}{part10/Williams_O32/Williams_O32}
+\tocinsertentry[r]{LEDDB: LOFAR Epoch of Reionization Diagnostic Database}{O.~Martinez-Rubi, V.~K.~Veligatla, A.~G.~de~Bruyn, P.~Lampropoulos, A.~R.~Offringa,  V.~Jelic, S.~Yatawatta, L.~V.~E.~Koopmans, and S.~Zaroubi}{part10/Martinez-rubi_O23/Martinez-rubi_O23}
+
+\part{Demonstrations, Focus Demonstrations, and Birds of a Feather Sessions}
+\tocinsertentry[r]{Bring out your codes! Bring out your codes! (Increasing Software Visibility and Re-use)}{A.~Allen, B.~Berriman, R.~Brunner, D.~Burger, K.~DuPrie, R.~J.~Hanisch, R.~Mann, J.~Mink, C.~Sandin, K.~Shortridge, and P.~Teuben}{part11/Allen_B1/Allen_B1}
+\tocinsertentry[r]{Astrophysics Source Code Library}{A.~Allen, K.~DuPrie, B.~Berriman, R.~J.~Hanisch, J.~Mink, P.~J.~Teuben}{part11/Allen_D1/Allen_D1}
+\tocinsertentry[r]{CANFAR+Skytree: A Cloud Computing and Data Mining System for Astronomy}{N.~M.~Ball}{part11/Ball_F5/Ball_F5}
+\tocinsertentry[r]{Application Interoperability with SAMP}{M.~Fitzpatrick, O.~Laurino, L.~Paioro, and M.~B.~Taylor}{part11/Taylor_B2/Taylor_B2}
+\tocinsertentry[r]{Filtergraph: A Flexible Web Application for Instant Data Visualization of Astronomy Datasets}{D.~Burger, K.~G.~Stassun, J.~A.~Pepper, R.~J.~Siverd, M.~A.~Paegert, and N.~M.~De~Lee}{part11/Burger_F2/Burger_F2}
+\tocinsertentry[r]{Web and Desktop Applications for ALMA Science Verification Data}{Y.~Shirasaki, W.~Kawasaki, S.~Eguchi, Y.~Komiya, G.~Kosugi, M.~Ohishi, and Y.~Mizumoto}{part11/Shirasaki_D5/Shirasaki_D5}
+
+\bookblankpage % To remove the page number from the back side of the bibtextest
+
+\tocinsertvspace{5.5ex} % Required to add a bit of space before indexes in ToC
+
+\backmatter
+
+%%% INDEXES
+
+%\printnotationlist   % Print the List of Notations by uncommenting this command
+\printauthorindex   % Print the Author Index by uncommenting this command
+\printsubjectindex   % Print the Subject Index by uncommenting this command
+\printobjectindex   % Print the Object Index by uncommenting this command
+%\printspectralindex   % Print the Spectral Index by uncommenting this command
+
+\tocinclude[r]{backmatter/backmatter}
+
+\end{document}   % The document ends (only one of these commands should be in this book)
