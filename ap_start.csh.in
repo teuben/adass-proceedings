@@ -1,0 +1,13 @@
+# for (t)csh: source this file
+
+setenv AP @AP@
+
+set path=($AP/bin $path)
+rehash
+
+
+if ($?PYTHONPATH) then
+  setenv PYTHONPATH .:$AP/lib:$PYTHONPATH
+else
+  setenv PYTHONPATH .:$AP/lib
+endif
