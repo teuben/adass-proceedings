@@ -1,0 +1,74 @@
+from IPython import ColorANSI
+from IPython.genutils import Term
+tc = ColorANSI.TermColors()
+
+"""
+Script to add index listings to a large number of files. User is prompted for the text to index (case insensitive) and what to index it with, e.g. projects!ASCL
+dirList is a list of all files to search in:
+
+dirtList = "part10/Bulgarelli_O05/Bulgarelli_O05.tex", "part10/Csepany_O09/Csepany_O09.tex", "part10/Currie_P61/Currie_P61.tex", "part10/Diaz_P54/Diaz_P54.tex", "part10/Dowell_P42/Dowell_P42.tex", "part10/Kuemmel_P049/Kuemmel_P049.tex"]
+
+The script will prompt the user whether or not to index each occurance 0=y 1=n (default is no)
+
+Original Author: D. N. Friedel
+"""
+
+dirList = []
+
+
+
+toIndex = raw_input("Text to index: ")
+
+indxWith = raw_input("Index with: ")
+
+replaceTxt = "\ssindex{%s}" % (indxWith)
+
+toIndex = toIndex.upper()
+
+
+for fl in dirList :
+    handle = open(fl,'r')
+    lines = handle.readlines()
+    handle.close()
+    outLines = []
+    found = False
+    for line in lines :
+        tline = line.upper()
+        s = tline.find(toIndex)
+        while(s >= 0) :
+            skip = False
+            last = tline.rfind(".",0,s)
+            last = max(0,last)
+            next = tline.find(".",s)
+            lnext = tline.find("\n",s)
+            if(next < 0) :
+                next = 1000000
+            if(lnext < 0) :
+                lnext = 10000000
+            end  = min(next,lnext)
+            if(tline[s-1] == "{" and tline[s+len(toIndex)] == "}") :
+                skip = True
+            if(tline[s-10:s].find("OOINDEX") != -1) :
+                skip = True
+            if(not skip) :
+                sentence = line[last:s] + tc.Yellow + line[s:s+len(toIndex)] + tc.Normal + line[s+len(toIndex):end]
+                print sentence
+                ans1 = raw_input("Index: ")
+                if(len(ans1) == 0) :
+                    ans1 = "2"
+                ans = int(ans1)
+                if(ans == 0) :
+                    found = True
+                    line = line[:s] + replaceTxt + line[s:]
+                    tline = line.upper()
+                    s = tline.find(toIndex,s+len(replaceTxt) + len(toIndex))
+                else :
+                    s = tline.find(toIndex,s+ len(toIndex))
+            else :
+                s = tline.find(toIndex,s+ len(toIndex))
+        outLines.append(line)
+    if(found) :
+        handle = open(fl,'w')
+        for line in outLines :
+            handle.write(line)
+        handle.close()
