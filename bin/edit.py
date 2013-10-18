@@ -1,10 +1,20 @@
-from IPython import ColorANSI
-from IPython.genutils import Term
-tc = ColorANSI.TermColors()
+#! /usr/bin/env python
+#
+
+try:
+    from IPython import ColorANSI
+    from  IPython.genutils import Term
+    tc = ColorANSI.TermColors()
+except:
+    from IPython.utils import coloransi
+    tc = coloransi.TermColors()
+
+import sys
 
 """
-Script to edit text in a large number of files. User is prompted for the text to be replaced and the text to replace with.
-dirList is a list of all files to search in:
+ Script to edit text in a large number of files. User is prompted for
+the text to be replaced and the text to replace with.  dirList is a
+list of all files to search in:
 
 dirtList = "part10/Bulgarelli_O05/Bulgarelli_O05.tex", "part10/Csepany_O09/Csepany_O09.tex", "part10/Currie_P61/Currie_P61.tex", "part10/Diaz_P54/Diaz_P54.tex", "part10/Dowell_P42/Dowell_P42.tex", "part10/Kuemmel_P049/Kuemmel_P049.tex"]
 
@@ -13,7 +23,7 @@ The script will prompt the user whether or not to replace each occurance 0=y 1=n
 Original Author: D. N. Friedel
 """
 
-dirList = []
+dirList = sys.argv[1:]
 
 toIndex = raw_input("Text to edit: ")
 
